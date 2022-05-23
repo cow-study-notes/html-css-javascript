@@ -1,0 +1,37 @@
+p:hover{
+    color:olivedrab;
+ }
+.txt{
+    color: rebeccapurple;
+    background-color: aqua;
+}
+.rar{
+    color: rosybrown;
+    background-color: blueviolet;
+}
+#css-h1{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+}
+
+@keyframes change-color {
+    0%{background-color: rebeccapurple;top:10px; left: 10px;}
+    20%{background-color: gold;top:20px; left: 20px;}
+    40%{background-color: slateblue;top:30px; left: 30px;}
+    60%{background-color: fuchsia;top:40px; left: 40px;}
+    80%{background-color: hotpink;top:50px; left: 50px;}
+    100%{background-color: lawngreen;top:60px; left: 60px;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+}
+.box-animation{
+    animation-name: change-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
